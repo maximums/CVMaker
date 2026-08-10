@@ -1,0 +1,4 @@
+<resources>
+    <string name = "kotlin_icon_description">Kotlin Logo</string>
+    <string name = "compose_icon_description">Jetpack Compose Logo</string>
+</resources>

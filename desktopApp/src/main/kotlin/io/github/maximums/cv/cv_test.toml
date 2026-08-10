@@ -1,0 +1,89 @@
+name = "Dodi Cristian-Dumitru"
+title = "Software Engineer"
+subtitles = [
+    "Gradle Build Engineer",
+    "Android Developer",
+    "Software Enthusiast",
+]
+
+[summary]
+value = "I am a driven software engineer with over six years of professional experience, beginning in 2021. I hold a bachelor's degree in computer science and have since built a strong specialization in Android development, contributing to multiple production-grade applications.\nThroughout my career, I have had the opportunity to work on projects for leading organizations across different industries, including Globalpayments, Bloomberg, and BMW. These experiences strengthened my ability to deliver scalable, high-quality solutions while adapting to diverse technical and business requirements."
+
+[skills]
+value = [
+    "Kotlin", "Gradle", "Jetpack Compose", "Detekt", "Lint", "Robolectric", "Android SDK", "KMP", "CMP", "Git",
+    "MVI", "MVVM", "Kotlin Coroutines", "Java", "Kotlin Flows/Channels", "AGSL", "Koin", "Dagger Hilt", "Retrofit", "Ktor",
+    "Room", "SQLite", "Github Actions", "Zuul"
+]
+
+[contacts]
+phone = "+373 76788268"
+email = "cdodi907@gmail.com"
+website = "https://maximums.github.io"
+location = "Chișinău, Republic of Moldova"
+
+[[education]]
+fieldName = "Bachelor of Science in Software Engineering"
+institution = "Technical University of Moldova"
+
+[[certifications]]
+name = "Oracle Certified Associate, Java SE 8 Programmer"
+description = "Certification on building a foundational understanding of Java"
+
+[[languages]]
+name = "Romanian"
+level = 5
+
+[[languages]]
+name = "Russian"
+level = 5
+
+[[languages]]
+name = "English"
+level = 3
+
+[[experience]]
+title = "Android Developer"
+employer = "at Fanatico Inc"
+period = "05/2021 - 08/2021"
+location = "Remote"
+tasks = [
+    "Led the initiative of rewriting existing application to Jetpack Compose, thus reducing the amount of UI bugs and improved user experience",
+    "Participated in application modularization and migration from Koin to Dagger Hilt",
+    "Integrated OAuth 2.0 protocol with various 3rd party authentication providers, like: Twitter, Patreon, TikTok, Meta",
+]
+
+[[experience]]
+# Fixed: Typo "Internat" -> "Intern"
+title = "Android Developer Intern"
+employer = "at Endava PLC"
+period = "09/2021 - 12/2021"
+location = "Chișinău, Moldova"
+tasks = [
+    "Completed a three-month internship as an Android developer, during which I became well versed in Agile development methodology. This experience significantly improved my technical knowledge and practical skills, allowing me to effectively contribute to the development of mobile applications in a collaborative and fast-paced environment",
+]
+
+[[experience]]
+title = "Android Developer"
+employer = "at Endava PLC"
+period = "12/2021 - 06/2024"
+location = "Chișinău, Moldova"
+tasks = [
+    "Participated in the development and maintenance of Android applications for major clients in the payments industry",
+    "Played a key role in converting the codebase from Java to Kotlin and adopting functional programming paradigm, which enhanced error handling and significantly improved the overall user experience",
+    "Optimized and refactored existing codebase, which lead to a reduction in bugs and application crashes",
+    "Pioneered the integration of dependency injection framework Dagger Hilt",
+]
+
+[[experience]]
+title = "Android Engineer"
+employer = "at Appsfactory GmbH"
+# Fixed: Removed leading space
+period = "07/2024 - Present"
+location = "Chișinău, Moldova"
+tasks = [
+    "Delivered multiple Android Automotive and Android Auto projects, progressing from proof-of concepts to fully functional, production-ready libraries",
+    "Optimized app performance, modularity, and maintainability by applying advanced Jetpack Compose and Gradle best practices",
+    "Built and integrated high-impact features with Mapbox and Android Media3, enhancing navigation and media experiences",
+    "Created and validated custom static code analysis rules for Detekt and Lint, improving code quality and enforcing project standards",
+]
