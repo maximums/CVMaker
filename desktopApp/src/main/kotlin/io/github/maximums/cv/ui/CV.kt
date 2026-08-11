@@ -1,4 +1,4 @@
-package io.github.maximums.cv.figma
+package io.github.maximums.cv.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
@@ -29,9 +29,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.maximums.cv.CVInfo
 import io.github.maximums.cv.designsystem.icon.AppIcon
-import io.github.maximums.cv.parser.model.CVConfig
+import io.github.maximums.cv.parser.model.CVData
 import io.github.maximums.cv.parser.model.Certification
 import io.github.maximums.cv.parser.model.Contacts
 import io.github.maximums.cv.parser.model.Education
@@ -41,7 +40,7 @@ import io.github.maximums.cv.parser.model.Summary
 import io.github.maximums.cv.parser.model.TechSkills
 
 @Composable
-fun FigmaCV(data: CVConfig, heightFraction: Float = 0.9f /* Temp parameter, for testing */) {
+fun CV(data: CVData, heightFraction: Float = 0.9f /* Temp parameter, for testing */) {
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier
